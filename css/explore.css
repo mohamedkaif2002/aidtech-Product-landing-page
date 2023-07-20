@@ -1,0 +1,72 @@
+/*..........................Desktop..............................*/
+@media(min-width:600px){
+    .explore{
+    text-align: center;
+    margin: 0px 110px;
+    border-top: 1px solid rgb(236, 236, 236);
+    margin-bottom: 70px;
+}
+.para1{
+    margin-top:70px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Roboto,Arial;
+    font-weight: bold;
+    cursor: pointer;
+}
+.para1:hover{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(230, 0, 255);
+}
+.para2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.grid-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 50px;
+}
+.grid-img img{
+    width: 241px;
+    height: 250px;
+}
+}
+/*.................................MObile..................................*/
+@media(max-width:600px){
+.explore{
+    text-align: center;
+    margin: 0px 10px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(236, 236, 236);
+}
+.para1{
+    margin-top:40px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: Roboto,Arial;
+    font-weight: bold;
+    cursor: pointer;
+}
+.para1:hover{
+    color: white;
+    text-shadow: 2px 2px 5px rgb(230, 0, 255);
+}
+.para2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.grid-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 50px;
+}
+.grid-img img{
+    border: 3px solid black;
+    width: 220px;
+    height: 250px;
+}
+}
