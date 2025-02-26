@@ -1,0 +1,62 @@
+.demo-begin {
+  display: flex;
+  margin: 0px 110px;
+  margin-top: 60px;
+}
+.demo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  margin-right: 10px;
+  width: 50%;
+  height: 330px;
+}
+.demo-start img {
+  width: 250px;
+}
+.demo-start img.shoe-pic {
+  width: 320px;
+  margin-top: 30px;
+}
+.demo-end {
+  text-align: center;
+}
+.demo1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+.demo2 {
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+@media (max-width: 850px) {
+  .demo-begin {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin: 0px 15px;
+  }
+  .demo {
+    width: 100%;
+    padding: 0rem 1rem;
+    margin-bottom: 10px;
+    height: 240px;
+  }
+  .demo-start img {
+    width: 180px;
+  }
+  .demo-start img.shoe-pic {
+    width: 250px;
+    margin-top: 20px;
+  }
+  .demo1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 700px;
+  }
+  .demo2 {
+    font-size: 16px;
+  }
+}
